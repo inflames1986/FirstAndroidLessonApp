@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/phone_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="5"
+        android:text="CALENDAR"
+        android:textColor="@color/purple_500"
+        android:textSize="26sp"
+        android:textStyle="italic" />
+
+    <CalendarView
+        android:id="@+id/calendar_day_selector_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    android:ems или setEms(n) задает ширину TextView,
+    чтобы соответствовать тексту из n ' m ' букв независимо
+    от фактического расширения текста и размера текста.
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/text_field"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Enter text here"-->
+    <!--        android:inputType="text" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/text_person_name_field"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Enter textPersonName here"-->
+    <!--        android:inputType="textPersonName" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/phone"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Enter phone here"-->
+    <!--        android:inputType="phone" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/number"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Enter number here"-->
+    <!--        android:inputType="number" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/text_password"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Enter textPassword here"-->
+    <!--        android:inputType="textPassword" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/text_email_adress"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Enter Email Address here"-->
+    <!--        android:inputType="textEmailAddress" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/text_postal_adress"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Enter Postal Adress here"-->
+    <!--        android:inputType="textPostalAddress" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/text_short_message"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="Enter Short Message here"-->
+    <!--        android:inputType="textShortMessage" />-->
+
+</LinearLayout>
